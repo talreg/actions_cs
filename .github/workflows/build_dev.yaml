@@ -15,6 +15,6 @@ jobs:
     needs: pull_var    
     uses: ./.github/workflows/build.yaml
     with:
-      environment: ${{needs.pull_var.outputs.SERVER_LOCATION}}
+      environment: mandalorian
     
 
