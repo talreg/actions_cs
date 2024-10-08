@@ -5,6 +5,8 @@ jobs:
   gh1:
     runs-on: ubuntu-latest
     steps:
-    - name: output
+    - name: github output
       run: echo " ${{toJson( github)}}"
+    - name: runner output
+      run: echo " ${{toJson( runner)}}"
             
