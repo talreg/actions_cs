@@ -11,5 +11,5 @@ jobs:
     - name: runner output
       run: echo " ${{toJson( runner)}}"
     - name: env output
-      run: echo " ${{ vars.SERVER_LOCATION}}"
+      run: echo " ${{ vars}}"
             
