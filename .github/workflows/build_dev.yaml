@@ -15,6 +15,9 @@ jobs:
         run: |
           echo "server_location=${{vars.SERVER_LOCATION}}" >> $GITHUB_OUTPUT
           echo "environment=${{vars.SERVER_LOCATION}}"
+      - name: show local output
+        run: |
+          echo "server_location=${{steps.set-server-location.outputs.server_location}}"
   build_dev:
     needs: pull_var    
     uses: ./.github/workflows/build.yaml
