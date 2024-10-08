@@ -11,8 +11,7 @@ jobs:
       - name: set server var
         id: set-server-location
         run: |
-          echo "SERVER_LOCATION=${{vars.SERVER_LOCATION}}" >> $GITHUB_ENV
-          echo "::set-output name=server_location::${{ vars.SERVER_LOCATION }}"
+          echo "server_location=${{vars.SERVER_LOCATION}}" >> $GITHUB_OUTPUT
           echo "environment=${{vars.SERVER_LOCATION}}"
   build_dev:
     needs: pull_var    
