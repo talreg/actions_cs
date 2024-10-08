@@ -1,14 +1,6 @@
 name: gh1
 on: 
   workflow_dispatch:
-  workflow_call:
-    inputs:
-      environment:
-        required: true
-        type: string
-        description: "environment to run"
-        default: "dev"
-  
 jobs:
   gh1:
     runs-on: ubuntu-latest

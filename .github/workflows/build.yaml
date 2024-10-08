@@ -7,6 +7,13 @@ on:
         type: string
         description: "environment to run"
         default: "dev"
+  workflow_call:
+    inputs:
+      environment:
+        required: true
+        type: string
+        description: "environment to run"
+        default: "dev"
   push:
     branches:
       - main

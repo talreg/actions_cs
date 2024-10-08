@@ -1,0 +1,15 @@
+name: build-dev
+on:
+  push:
+    branches:
+      - main
+jobs:    
+  getvars: 
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: running build
+        uses: build.yaml
+        with:
+          environment: ${{vars.SERVER_LOCATION}}
+
