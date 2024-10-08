@@ -1,0 +1,10 @@
+name: gh1
+on: 
+  workflow_dispatch:
+jobs:
+  gh1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: output
+      run: echo " ${{toJson( github)}}"
+            

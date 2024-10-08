@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9645529d-2ba2-4946-be84-e227ccb2974e" name="@monstal 2024-10-07 22:21:21" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-10-07T22:21:21.9659549-04:00" queuing="2024-10-07T22:21:21.9659550-04:00" start="2024-10-07T22:21:21.1405525-04:00" finish="2024-10-07T22:21:22.0093409-04:00" />
+  <TestSettings name="default" id="1f45ec9b-01a3-4e2a-b544-4fcd111f0d03">
+    <Deployment runDeploymentRoot="_monstal_2024-10-07_22_21_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="590c5cc7-e6e4-4062-ac34-156a538bc283" testId="eb726b71-5e41-66a4-d8ba-a3d4d3745bd2" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password123&quot;, expected: False)" computerName="monstal" duration="00:00:00.0002429" startTime="2024-10-07T22:21:21.8911704-04:00" endTime="2024-10-07T22:21:21.8911704-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="590c5cc7-e6e4-4062-ac34-156a538bc283" />
+    <UnitTestResult executionId="d5a288ba-9c0a-4561-b5c5-ab4c091f6425" testId="ac6767c7-565f-dcda-666f-f6e3a5c042b2" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password123!&quot;, expected: True)" computerName="monstal" duration="00:00:00.0000024" startTime="2024-10-07T22:21:21.8912452-04:00" endTime="2024-10-07T22:21:21.8912452-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5a288ba-9c0a-4561-b5c5-ab4c091f6425" />
+    <UnitTestResult executionId="d62c3973-7740-429f-9858-8d6a1bb2b564" testId="a07e9794-8e38-f551-e3dd-8122e0cdcb38" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: null, expected: False)" computerName="monstal" duration="00:00:00.0000045" startTime="2024-10-07T22:21:21.8912036-04:00" endTime="2024-10-07T22:21:21.8912036-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d62c3973-7740-429f-9858-8d6a1bb2b564" />
+    <UnitTestResult executionId="be0050ca-e0da-4af0-abce-afb552934961" testId="dd1e5e6e-db44-47e5-d109-8ea7ff60d48f" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;password123!&quot;, expected: False)" computerName="monstal" duration="00:00:00.0026520" startTime="2024-10-07T22:21:21.8907641-04:00" endTime="2024-10-07T22:21:21.8907641-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be0050ca-e0da-4af0-abce-afb552934961" />
+    <UnitTestResult executionId="2b65a3f8-88d1-4688-8830-c6c86a1ec721" testId="16ed285a-b95b-98fb-2bfd-36fc2fc266ed" testName="ConsoleApp.Tests.UserTest.DisplayUserInfo_ShouldOutputCorrectInfo" computerName="monstal" duration="00:00:00.0004245" startTime="2024-10-07T22:21:21.9163795-04:00" endTime="2024-10-07T22:21:21.9163795-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b65a3f8-88d1-4688-8830-c6c86a1ec721" />
+    <UnitTestResult executionId="434b4e72-20aa-4ad9-b49c-782e2a8f19ec" testId="d2dc63f4-cf31-2c44-97ab-b0d6105bee6e" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;&quot;, expected: False)" computerName="monstal" duration="00:00:00.0000016" startTime="2024-10-07T22:21:21.9163258-04:00" endTime="2024-10-07T22:21:21.9163258-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="434b4e72-20aa-4ad9-b49c-782e2a8f19ec" />
+    <UnitTestResult executionId="19749bec-39d5-4907-bfce-96c929b084f0" testId="e0dc09fa-8763-76e4-1876-36f606c2f85e" testName="Console.tests.UnitTest1.Test1" computerName="monstal" duration="00:00:00.0019120" startTime="2024-10-07T22:21:21.8910421-04:00" endTime="2024-10-07T22:21:21.8910422-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19749bec-39d5-4907-bfce-96c929b084f0" />
+    <UnitTestResult executionId="8a381fe9-db97-4966-88e8-b408129f2dce" testId="720fd91a-b75e-b8fc-447e-d1b25a6f86df" testName="ConsoleApp.Tests.UserTest.UserConstructor_ShouldInitializeProperties" computerName="monstal" duration="00:00:00.0019027" startTime="2024-10-07T22:21:21.8906534-04:00" endTime="2024-10-07T22:21:21.8906535-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a381fe9-db97-4966-88e8-b408129f2dce" />
+    <UnitTestResult executionId="2c5888f7-f948-4f29-b1d4-f18ca1db8865" testId="b7dc02d0-b7d7-5333-4afc-670faba9ad86" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password!&quot;, expected: False)" computerName="monstal" duration="00:00:00.0000015" startTime="2024-10-07T22:21:21.9163606-04:00" endTime="2024-10-07T22:21:21.9163606-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c5888f7-f948-4f29-b1d4-f18ca1db8865" />
+    <UnitTestResult executionId="c987b0a8-e6e0-4b33-88a0-224f174b656e" testId="0a39c417-1d68-5625-62a4-9373d243e641" testName="Console.tests.UnitTest1.FailureTest" computerName="monstal" duration="00:00:00.0010000" startTime="2024-10-07T22:21:21.8819162-04:00" endTime="2024-10-07T22:21:21.8819643-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c987b0a8-e6e0-4b33-88a0-224f174b656e">
+      <Output>
+        <StdOut>This test is expected to fail</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3663df7b-f793-4af8-85f3-4abc309aa735" testId="65876ccd-5906-7bfa-2918-2e754bdabd76" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;PASSWORD123!&quot;, expected: False)" computerName="monstal" duration="00:00:00.0000022" startTime="2024-10-07T22:21:21.9161914-04:00" endTime="2024-10-07T22:21:21.9161914-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3663df7b-f793-4af8-85f3-4abc309aa735" />
+    <UnitTestResult executionId="5d8b5265-b99f-419a-9101-0eeb30de4d98" testId="e79c97af-d3c5-0235-8bdc-bd45dc54ff23" testName="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Pass123!&quot;, expected: True)" computerName="monstal" duration="00:00:00.0000019" startTime="2024-10-07T22:21:21.8912798-04:00" endTime="2024-10-07T22:21:21.8912798-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d8b5265-b99f-419a-9101-0eeb30de4d98" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Pass123!&quot;, expected: True)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="e79c97af-d3c5-0235-8bdc-bd45dc54ff23">
+      <Execution id="5d8b5265-b99f-419a-9101-0eeb30de4d98" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;password123!&quot;, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="dd1e5e6e-db44-47e5-d109-8ea7ff60d48f">
+      <Execution id="be0050ca-e0da-4af0-abce-afb552934961" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;&quot;, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="d2dc63f4-cf31-2c44-97ab-b0d6105bee6e">
+      <Execution id="434b4e72-20aa-4ad9-b49c-782e2a8f19ec" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password!&quot;, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="b7dc02d0-b7d7-5333-4afc-670faba9ad86">
+      <Execution id="2c5888f7-f948-4f29-b1d4-f18ca1db8865" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;PASSWORD123!&quot;, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="65876ccd-5906-7bfa-2918-2e754bdabd76">
+      <Execution id="3663df7b-f793-4af8-85f3-4abc309aa735" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password123&quot;, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="eb726b71-5e41-66a4-d8ba-a3d4d3745bd2">
+      <Execution id="590c5cc7-e6e4-4062-ac34-156a538bc283" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="ConsoleApp.Tests.UserTest.UserConstructor_ShouldInitializeProperties" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="720fd91a-b75e-b8fc-447e-d1b25a6f86df">
+      <Execution id="8a381fe9-db97-4966-88e8-b408129f2dce" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ConsoleApp.Tests.UserTest" name="UserConstructor_ShouldInitializeProperties" />
+    </UnitTest>
+    <UnitTest name="Console.tests.UnitTest1.Test1" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="e0dc09fa-8763-76e4-1876-36f606c2f85e">
+      <Execution id="19749bec-39d5-4907-bfce-96c929b084f0" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Console.tests.UnitTest1" name="Test1" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: null, expected: False)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="a07e9794-8e38-f551-e3dd-8122e0cdcb38">
+      <Execution id="d62c3973-7740-429f-9858-8d6a1bb2b564" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="Console.tests.UnitTest1.FailureTest" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="0a39c417-1d68-5625-62a4-9373d243e641">
+      <Execution id="c987b0a8-e6e0-4b33-88a0-224f174b656e" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Console.tests.UnitTest1" name="FailureTest" />
+    </UnitTest>
+    <UnitTest name="PasswordCheckerTests.PasswordCheckerTest.IsPasswordStrong_ShouldReturnExpectedResult(password: &quot;Password123!&quot;, expected: True)" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="ac6767c7-565f-dcda-666f-f6e3a5c042b2">
+      <Execution id="d5a288ba-9c0a-4561-b5c5-ab4c091f6425" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PasswordCheckerTests.PasswordCheckerTest" name="IsPasswordStrong_ShouldReturnExpectedResult" />
+    </UnitTest>
+    <UnitTest name="ConsoleApp.Tests.UserTest.DisplayUserInfo_ShouldOutputCorrectInfo" storage="/home/tal/temp/console_cs/console.tests/bin/debug/net8.0/console.tests.dll" id="16ed285a-b95b-98fb-2bfd-36fc2fc266ed">
+      <Execution id="2b65a3f8-88d1-4688-8830-c6c86a1ec721" />
+      <TestMethod codeBase="/home/tal/temp/console_cs/Console.tests/bin/Debug/net8.0/Console.tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ConsoleApp.Tests.UserTest" name="DisplayUserInfo_ShouldOutputCorrectInfo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="eb726b71-5e41-66a4-d8ba-a3d4d3745bd2" executionId="590c5cc7-e6e4-4062-ac34-156a538bc283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac6767c7-565f-dcda-666f-f6e3a5c042b2" executionId="d5a288ba-9c0a-4561-b5c5-ab4c091f6425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a07e9794-8e38-f551-e3dd-8122e0cdcb38" executionId="d62c3973-7740-429f-9858-8d6a1bb2b564" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd1e5e6e-db44-47e5-d109-8ea7ff60d48f" executionId="be0050ca-e0da-4af0-abce-afb552934961" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16ed285a-b95b-98fb-2bfd-36fc2fc266ed" executionId="2b65a3f8-88d1-4688-8830-c6c86a1ec721" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2dc63f4-cf31-2c44-97ab-b0d6105bee6e" executionId="434b4e72-20aa-4ad9-b49c-782e2a8f19ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0dc09fa-8763-76e4-1876-36f606c2f85e" executionId="19749bec-39d5-4907-bfce-96c929b084f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="720fd91a-b75e-b8fc-447e-d1b25a6f86df" executionId="8a381fe9-db97-4966-88e8-b408129f2dce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7dc02d0-b7d7-5333-4afc-670faba9ad86" executionId="2c5888f7-f948-4f29-b1d4-f18ca1db8865" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a39c417-1d68-5625-62a4-9373d243e641" executionId="c987b0a8-e6e0-4b33-88a0-224f174b656e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65876ccd-5906-7bfa-2918-2e754bdabd76" executionId="3663df7b-f793-4af8-85f3-4abc309aa735" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e79c97af-d3c5-0235-8bdc-bd45dc54ff23" executionId="5d8b5265-b99f-419a-9101-0eeb30de4d98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.8)
+[xUnit.net 00:00:00.29]   Discovering: Console.tests
+[xUnit.net 00:00:00.32]   Discovered:  Console.tests
+[xUnit.net 00:00:00.32]   Starting:    Console.tests
+[xUnit.net 00:00:00.36]       This test is expected to fail
+Test 'Console.tests.UnitTest1.FailureTest' was skipped in the test run.
+[xUnit.net 00:00:00.40]   Finished:    Console.tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="monstal" outcome="Warning" timestamp="2024-10-07T22:21:21.8812052-04:00">
+        <Text>[xUnit.net 00:00:00.36]     Console.tests.UnitTest1.FailureTest [SKIP]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
