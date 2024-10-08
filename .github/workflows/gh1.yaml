@@ -12,7 +12,7 @@ on:
 jobs:
   gh1:
     runs-on: ubuntu-latest
-    environment: ${{inputs.environment}}
+    environment: ${{github.event.inputs.environment}}
     steps:
     - name: github output
       run: echo " ${{toJson( github)}}"
