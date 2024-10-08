@@ -1,5 +1,5 @@
 name: Build
-on: [workflow_dispatch]
+on: [workflow_dispatch,push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,3 +13,6 @@ jobs:
       - name: build
         run: |
           dotnet build
+      - name: test
+        run: |
+          dotnet test
