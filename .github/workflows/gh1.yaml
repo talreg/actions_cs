@@ -1,10 +1,18 @@
 name: gh1
 on: 
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      environment:
+        required: false
+        type: string
+        description: "environment to run"
+        default: "dev"
+  
 jobs:
   gh1:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: input.environment
     steps:
     - name: github output
       run: echo " ${{toJson( github)}}"
