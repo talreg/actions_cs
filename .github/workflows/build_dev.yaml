@@ -3,13 +3,18 @@ on:
   push:
     branches:
       - main
-jobs:    
-  getvars: 
+jobs:
+  pull_var:
     runs-on: ubuntu-latest
     environment: dev
     steps:
-      - name: running build
-        uses: ./.github/workflows/build.yaml
-        with:
-          environment: ${{vars.SERVER_LOCATION}}
+      - name: set server var
+        id: set-server-location
+        run: echo "SERVER_LOCATION=${{vars.SERVER_LOCATION}}" >> $GITHUB_ENV
+  build_dev:
+    needs: pull_var    
+    uses: ./.github/workflows/build.yaml
+    with:
+      environment: ${{needs.pull_var.outputs.SERVER_LOCATION}}
+    
 
