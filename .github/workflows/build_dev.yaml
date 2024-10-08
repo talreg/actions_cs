@@ -9,7 +9,7 @@ jobs:
     environment: dev
     steps:
       - name: running build
-        uses: build.yaml
+        uses: ./.github/workflows/build.yaml
         with:
           environment: ${{vars.SERVER_LOCATION}}
 
