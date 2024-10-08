@@ -18,7 +18,6 @@ jobs:
           dotnet test
   deploy:
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: output
         run: ls -shla
