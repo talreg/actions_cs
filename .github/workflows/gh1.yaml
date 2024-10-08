@@ -10,6 +10,6 @@ jobs:
       run: echo " ${{toJson( github)}}"
     - name: runner output
       run: echo " ${{toJson( runner)}}"
-    - name: env output
-      run: echo " ${{ vars}}"
+    - name: env vars output
+      run: echo " ${{ toJson(vars)}}"
             
