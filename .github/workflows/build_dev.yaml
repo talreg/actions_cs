@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: dev
     outputs:
-      server_location: ${{ steps.set-server-location.outputs.environment }}
+      server_location: ${{ steps.set-server-location.outputs.server_location }}
     steps:
       - name: set server var
         id: set-server-location
