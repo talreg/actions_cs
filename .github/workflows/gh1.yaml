@@ -4,6 +4,7 @@ on:
 jobs:
   gh1:
     runs-on: ubuntu-latest
+    environment: dev
     steps:
     - name: github output
       run: echo " ${{toJson( github)}}"
