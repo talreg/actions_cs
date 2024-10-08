@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: output
         run: ls -shla
-  
-  
+      - name: "pull code"
+        uses: actions/checkout@v4       
+      - name: output
+        run: ls -shla
