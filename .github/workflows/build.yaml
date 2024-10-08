@@ -40,6 +40,6 @@ jobs:
           dotnet publish -c Release
       - name: deploy
         run: |
-          echo "deploying"
+          echo "deploying to ${{inputs.environment}}"
           sleep 20
           echo "deployed"
