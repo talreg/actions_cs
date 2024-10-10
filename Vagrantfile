@@ -8,6 +8,10 @@ Vagrant.configure("2") do |config|
   end
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get install -y apache2
+    apt-get install -y build-essential linux-headers-$(uname -r) dkms ruby openjdk-21-jdk dotnet-sdk-8.0
+    apt-get dist-upgrade -y
+    apt-get autoremove -y
   SHELL
+  config.vm.provision "shell", path: "scripts/install_go.sh"
+  config.vm.provision "shell", path: "scripts/install_node.sh"
 end
